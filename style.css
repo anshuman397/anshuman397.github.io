@@ -1,0 +1,49 @@
+/*Code for logos taken from w3Scgools*/
+
+.fa {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    margin-top: 5px;
+}
+
+
+/* Adding a hover */
+
+.fa:hover {
+    opacity: 0.7;
+    color: gray;
+    text-decoration: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    // pointer-events: none;
+}
+
+
+/*Styling of logos end here*/
+
+
+/*Fixing Footer issues here*/
+
+#footer {
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 280px;
+    background: grey;
+}
+
+
+/*Fixing footer ends here*/
